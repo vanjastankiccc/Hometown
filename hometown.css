@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Milker;
+    src: url("Milker.otf");
+}
+
+body {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("https://i.pinimg.com/1200x/f5/05/71/f50571d12875840a5544808cda0f86c7.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    font-family: Milker;
+    color: rgb(255, 200, 98);
+    margin: 0;
+    padding: 0px 20px;
+    font-size: 140px;
+    text-shadow: 5px 5px 0 white;
+}
+
+#hero-subtitle {
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 2px black;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(0, 44, 95);
+    box-shadow: 10px 10px 0 rgb(0, 24, 51);
+}
+
+#activities {
+    background-color: rgba(255, 63, 118, 0.149);
+    text-align: center;
+    height: 550px;
+    padding: 50px 0;
+}
+
+#activities-title {
+    margin-bottom: 50px;
+}
+
+#activities-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-activity {
+    width: 250px;
+}
+
+.img-activity {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#guide {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#guide-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 200, 98);
+    border-bottom: 6px solid rgb(255, 174, 23);
+    width: 600px;
+    padding: 40px 30px;
+}
+
+#img-guide {
+    border-radius: 100px 100px 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+#guide-description {
+    border: 4px double black;
+    width: 300px;
+}
